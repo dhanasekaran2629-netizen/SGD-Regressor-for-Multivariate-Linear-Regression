@@ -9,8 +9,11 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Algorithm
 1. Load the California housing dataset, select required features and targets, and split the data into training and testing sets.
+   
 2.Standardize the feature and target values using StandardScaler.
+
 3.Train a multi-output regression model using SGDRegressor.
+
 4.Predict on the test data, compute the mean squared error, and display predictions with squared error.
 
 
